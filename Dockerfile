@@ -4,7 +4,6 @@ LABEL AUTHOR=xavierniu<a@nxw.name>
 
 ENV PUID=1000
 ENV PGID=1000
-ENV RPC_PORT=6800
 
 RUN mkdir -p /aria2/config \
     && mkdir -p /aria2/downloads \
