@@ -20,5 +20,11 @@ if [ ! -f /aria2/logs.txt ]; then
     chown $PUID:$PGID /aria2/logs.txt
 fi
 
+# For DHT files
+if [ ! -f /aria2/dht.dat ]; then
+    touch /aria2/dht.dat
+    chown $PUID:$PGID /aria2/dht.dat
+fi
+
 aria2c --conf-path=/aria2/config/aria2.conf --log=/aria2/logs.txt --enable-rpc --rpc-listen-all
 # aria2c --no-conf --enable-rpc --rpc-listen-all
