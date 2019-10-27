@@ -1,7 +1,7 @@
 # Aria2 Docker
 
 [![](https://images.microbadger.com/badges/image/xavierniu/aria2.svg)](https://microbadger.com/images/xavierniu/aria2 "Get your own image badge on microbadger.com")
-[![Actions Status](https://github.com/xavier-niu/aria2-docker/workflows/Docker%20Push/badge.svg)](https://github.com/{xavier-niu}/{aria2-docker}/actions)
+[![Actions Status](https://github.com/xavier-niu/aria2-docker/workflows/Docker%20Push/badge.svg)](https://github.com/xavier-niu/aria2-docker/actions)
 [![Docker Pulls](https://img.shields.io/docker/pulls/xavierniu/aria2)](https://hub.docker.com/r/xavierniu/aria2/)
 
 There is masses of docker image of Aria2 with add-on components, which makes more difficults to deploy it. Besides, Aria2 provides a powerful RPC to help you connect it in the remote way by some clients(e.g. Aria2NG). This docker image is for a pure Aira2 docker image without any other web-ui or file system, which allows you to build your own aria2 ecology freely.
