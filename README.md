@@ -39,6 +39,11 @@ docker --name aria2 -p "9092:6800" -d \
 
 In most cases, the default configuration, which you may refer to [aria2.conf](https://github.com/xavier-niu/aria2-docker/blob/master/aria2.conf) for more information, will meet all your needs. If not, you could edit it according to your requirements after binded volume with your local disk.
 
+PLEASE ATTENTION if only you intend to download BT by Aria2. Basic settings for BT are added into default config. I list some parts which give you a hint for BT optimization: 
+
+- DHT enabled. Disable if you download by PT.
+- BT Tracker. BT Tracker is varied but important to find the peers, there is no guarantee default trackers are suited for you. Please consider replaceing bt-traker at the last line of `aria2.conf` on the basic of [trackerlist](https://github.com/ngosang/trackerslist) in case there is no speed when downloading BT files.
+
 **Remote Access**
 
 You can access Aria2 via AriaNG once the service has launched. Please follow the steps below:
