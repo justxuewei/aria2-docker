@@ -44,5 +44,5 @@ You can access Aria2 via Aria2NG once the services has launched. Please follow t
 - (Optional) Go `AriaNG Settings > RPC(at the top of page)` and edit RPC address as shown the image below if you have changed the port or deployed in other machine instead of localhost. In this case, I should replace port 6800 with 9092.
 - "connected" should be revealed at Aria2 Status at the sidebar of the Aria2 homepage
 
-![image-20191027001618516](http://res.niuxuewei.com/2019-10-26-161618.png)
+![image-20191027001618516](https://github.com/xavier-niu/aria2-docker/raw/master/aria2ng-screenshot.png)
 
