@@ -4,7 +4,7 @@
 [![Actions Status](https://github.com/xavier-niu/aria2-docker/workflows/Docker%20Push/badge.svg)](https://github.com/xavier-niu/aria2-docker/actions)
 [![Docker Pulls](https://img.shields.io/docker/pulls/xavierniu/aria2)](https://hub.docker.com/r/xavierniu/aria2/)
 
-There is masses of docker image of Aria2 with add-on components, which makes more difficults to deploy it. Besides, Aria2 provides a powerful RPC to help you connect it in the remote way by some clients(e.g. Aria2NG). This docker image is for a pure Aira2 docker image without any other web-ui or file system, which allows you to build your own aria2 ecology freely.
+There is masses of docker image of Aria2 with add-on components, which makes more difficults to deploy it. Besides, Aria2 provides a powerful RPC to help you connect it in the remote way by some clients(e.g. AriaNG). This docker image is for a pure Aira2 docker image without any other web-ui or file system, which allows you to build your own aria2 ecology freely.
 
 **Environment Variables**
 
@@ -41,12 +41,12 @@ In most cases, the default configuration, which you may refer to [aria2.conf](ht
 
 **Remote Access**
 
-You can access Aria2 via Aria2NG once the services has launched. Please follow the steps below:
+You can access Aria2 via AriaNG once the service has launched. Please follow the steps below:
 
-- Download Aria2 from [Github](https://github.com/mayswind/AriaNg)
+- Download AriaNG from [Github](https://github.com/mayswind/AriaNg)
 - Extract it from zip and open it
 - (Optional) Go `AriaNG Settings > RPC(at the top of page)` and edit RPC address as shown the image below if you have changed the port or deployed in other machine instead of localhost. In this case, I should replace port 6800 with 9092.
-- "connected" should be revealed at Aria2 Status at the sidebar of the Aria2 homepage
+- "connected" should be revealed at Aria2 Status at the sidebar of AriaNG homepage
 
 ![image-20191027001618516](https://github.com/xavier-niu/aria2-docker/raw/master/aria2ng-screenshot.png)
 
