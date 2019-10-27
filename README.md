@@ -1,6 +1,6 @@
 # Aria2 Docker
 
-There is masses of docker image of Aria2 with add-on components, which makes more difficults to run it. Besides, Aria2 provides a powerful RPC to help you connect it in the remote way by some clients(e.g. Aria2NG). This docker image is for a pure Aira2 docker image without any other web-ui or file system, which allows you to build your own aria2 ecology freely.
+There is masses of docker image of Aria2 with add-on components, which makes more difficults to deploy it. Besides, Aria2 provides a powerful RPC to help you connect it in the remote way by some clients(e.g. Aria2NG). This docker image is for a pure Aira2 docker image without any other web-ui or file system, which allows you to build your own aria2 ecology freely. Please visit [Docker Hub](https://cloud.docker.com/repository/docker/xavierniu/aria2) if you wanna deploy in your machine.
 
 **Environment Variables**
 
